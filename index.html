@@ -5,9 +5,196 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
     <script src="js/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <title>Dashboard</title>
 </head>
 <body>
-    <h1>sgwgw</h1>
+
+    <div class="layout-container">
+
+        <header class="sidebar">
+            <h1 class="dashboard-name">Dashboard.io</h1>           
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a class="menu-item active" href="#">
+                            <img class="menu-icon" src="./img/menu-icons/home.svg">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#">
+                            <img class="menu-icon" src="./img/menu-icons/profile.svg">
+                            <p>Profile</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#">
+                            <img class="menu-icon" src="./img/menu-icons/messages.svg">
+                            <p>Messages</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#">
+                            <img class="menu-icon" src="./img/menu-icons/history.svg">
+                            <p>History</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#">
+                            <img class="menu-icon" src="./img/menu-icons/tasks.svg">
+                            <p>Tasks</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#">
+                            <img class="menu-icon" src="./img/menu-icons/communities.svg">
+                            <p>Communities</p>
+                        </a>
+                    </li>
+                    <br>
+                    <li>
+                        <a class="menu-item" href="#">
+                            <img class="menu-icon" src="./img/menu-icons/settings.svg">
+                            <p>Settings</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#">
+                            <img class="menu-icon" src="./img/menu-icons/support.svg">
+                            <p>Support</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="menu-item" href="#">
+                            <img class="menu-icon" src="./img/menu-icons/privacy.svg">
+                            <p>Privacy</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="top-bar">
+            <form action="#" method="get">
+                <input type="text" id="searchbar" name="search"  
+                aria-label="Search or type a command" placeholder="Search or type a command"> 
+                <!-- Input type is "text" instead of "search" only for easier styling -->
+            </form>
+            <button class="primary-button">Upload<span> +</span></button>
+            <img class="notification" src="./img/notification.svg" alt="">
+            <img class="profile" src="./img/profile.jpg" alt="Profile settings">
+        </section>
+
+        <section class="main-content">
+            <div class="projects">
+                <div class="card">
+                    <p class="card-title">Super cool project</p>
+                    <p class="card-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="card-icons">
+                        <img class="project-icon" src="./img/main-icons/star.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/visibility.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/share.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <p class="card-title">Super cool project</p>
+                    <p class="card-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="card-icons">
+                        <img class="project-icon" src="./img/main-icons/star.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/visibility.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/share.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <p class="card-title">Super cool project</p>
+                    <p class="card-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="card-icons">
+                        <img class="project-icon" src="./img/main-icons/star.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/visibility.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/share.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <p class="card-title">Super cool project</p>
+                    <p class="card-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="card-icons">
+                        <img class="project-icon" src="./img/main-icons/star.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/visibility.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/share.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <p class="card-title">Super cool project</p>
+                    <p class="card-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="card-icons">
+                        <img class="project-icon" src="./img/main-icons/star.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/visibility.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/share.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <p class="card-title">Super cool project</p>
+                    <p class="card-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="card-icons">
+                        <img class="project-icon" src="./img/main-icons/star.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/visibility.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/share.svg" alt="">
+                    </div>
+                </div>
+
+                <div class="card">
+                    <p class="card-title">Super cool project</p>
+                    <p class="card-content">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                        ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="card-icons">
+                        <img class="project-icon" src="./img/main-icons/star.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/visibility.svg" alt="">
+                        <img class="project-icon" src="./img/main-icons/share.svg" alt="">
+                    </div>
+                </div>
+            </div>
+
+            <div class="announcement"></div>
+
+            <div class="trending"></div>
+        </section>
+
+    </div>
+
 </body>
 </html>
